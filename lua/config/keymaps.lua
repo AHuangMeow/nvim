@@ -5,7 +5,7 @@ vim.keymap.set("n", "<leader>q", "<cmd>q<CR>", { desc = "Quit" })
 vim.keymap.set("n", "<leader>!", "<cmd>q!<CR>", { desc = "Discard" })
 
 vim.keymap.set("n", "<leader>s", "<cmd>wa<CR>", { desc = "Save" })
-vim.keymap.set("n", "<leader>x", "<cmd>wqa!<CR>", { desc = "Exit" })
+vim.keymap.set("n", "<leader>x", "<cmd>xa!<CR>", { desc = "Exit" })
 
 vim.keymap.set("n", "<Esc>", "<cmd>noh<CR>")
 

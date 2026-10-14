@@ -1,6 +1,8 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+vim.opt.timeoutlen = 300
+
 vim.opt.fillchars:append({ eob = "." })
 
 vim.opt.clipboard = "unnamedplus"
